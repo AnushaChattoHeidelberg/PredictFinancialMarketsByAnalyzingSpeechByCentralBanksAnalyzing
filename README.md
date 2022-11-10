@@ -1,4 +1,4 @@
-# PredictFinancialMarketsByAnalyzingSpeechByCentralBanksAnalyzing
+# PredictFinancialMarketsByAnalyzingSpeechByCentralBanks
 
 Project Repository for Data Science for Text Analytics 
 
