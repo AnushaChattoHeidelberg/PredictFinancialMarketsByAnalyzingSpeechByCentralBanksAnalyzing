@@ -8,7 +8,7 @@ Group Members:
 
 Anusha Chattopadhyay
 Keertan Ugrani
-Renuka Sahani
+Renuka Jawaharlal Sahani
 Shruti Ghargi
 
 
