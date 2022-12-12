@@ -48,6 +48,25 @@ Project Flow Chart
 2. creating a bert transformed test set to test the model after the inital training
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Notes for Repo contributers
+
+# repository overview - as of december 12/12/2022
+1. training and test data are in the dada folder
+2. models folder is for storing trained models
+3. the plots folder is for any plots you may want to save as .png or any other format
+4. src/snippets is for independent code files: or files that can run on their own or were created as external .pynb files and then added into the repo
+    this code is meant to be eventually integrated into the main.py file
+5. the main.py file is for compilation of the snippets and other external file. ideally this should have minimal algorims in it and mostly imports.
+# guidelines
+1. Please PULL before you push, and before every editing session, to avoid merge conflits while pushing.
+2. Please avoid non specific commits such as  "small changes" , "bug fix (with no description of which bug)".
+3. Please create a pull request or contact the members before making a large change on a file you aren't solely working on (non snippet file) or is a dependency for a file someone else is working on
+4. For Vscode users, git lens is recommended
+5. Refering to point 2, try to not keep the same commit for a large commit, ideally commits should be in small batches so the other contributers can read them easily.
+6. After a push, please also update the logs in the README file as frequently as possible.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 # log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 -----------------------------------------------------------
 Readme, Logs and repo maintainace main - Anusha Chattopadhyay
