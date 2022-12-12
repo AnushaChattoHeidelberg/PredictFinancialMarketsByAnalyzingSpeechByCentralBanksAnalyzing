@@ -8,7 +8,7 @@ Project Name: Predict Financial Markets By Analyzing Speech By Central Banks
 
 Anusha Chattopadhyay - anusha.chattopadhyay@stud.uni-heidelberg.de
 
-Keertan Ugrani - ugranikeerthan6@gmail.com
+Keerthan Ugrani - ugranikeerthan6@gmail.com
 
 Renuka Jawaharlal Sahani - renukasahani16@gmail.com
 
