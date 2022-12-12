@@ -33,8 +33,9 @@ Project Flow Chart
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
-
+-------------------------------------------------------------------------------
 Main ReadMe archiver - Anusha Chattopadhyay
+-------------------------------------------------------------------------------
 
 Data Files Aquired- Keertan Ugrani
 
