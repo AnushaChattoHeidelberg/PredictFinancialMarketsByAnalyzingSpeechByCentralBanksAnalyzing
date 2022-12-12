@@ -19,7 +19,11 @@ Data Files Aquired- Keertan Ugrani
 
 Git Repo Creation - Anusha Chattopadhyay
 
-Folder Creation and static pynb file creation - Renuka sahani
+Folder Creation data,src and models - Renuka Jawaharlal Sahani
+
+Uploaded datasets in data folder - Renuka Jawaharlal Sahani
+
+Wrote static pynb file in src snippets - Renuka Jawaharlal Sahani
 
 Added pynb script for correlation matrix - Anusha Chattopadhyay
 
