@@ -30,9 +30,9 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project
+# Status of project as of december 12/12/2022 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch.
 
-# tasks completed -
+# tasks completed - update
 
 1. initial data aquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
@@ -46,6 +46,7 @@ Project Flow Chart
 # tasks pending -
 1. 1st iteration Prediction model with train and test data 
 2. creating a bert transformed test set to test the model after the inital training
+3. Begin converting snippets into py files to be directly run in main, as of now main,py is empty - process begun as test in branch Anusha
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
