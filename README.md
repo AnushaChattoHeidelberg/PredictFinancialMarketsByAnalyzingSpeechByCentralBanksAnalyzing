@@ -33,21 +33,22 @@ Project Flow Chart
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
--------------------------------------------------------------------------------
-Main ReadMe archiver - Anusha Chattopadhyay
--------------------------------------------------------------------------------
 
 Data Files Aquired- Keertan Ugrani
 
 Git Repo Creation - Anusha Chattopadhyay
-
-Project Architecture Diagrams - Keertan Ugrani
 
 Folder Creation data,src and models - Renuka Jawaharlal Sahani
 
 Uploaded datasets in data folder - Renuka Jawaharlal Sahani
 
 Wrote static pynb file in src snippets for load the market data size of the column mean median sd for combined as well as one day one week or two week.- Renuka Jawaharlal Sahani
+
+Computed the highs and lows for each stock market company for 1st day, 1st week and 2nd week- Shruti Ghargi
+
+Plotted graph for visualization - Shruti Ghargi
+
+Added the pynb script for High and Low values of the stock market - Shruti Ghargi
 
 Plotted the Moving average for the market results data in y_train file - Anusha Chattopadhyay
 
