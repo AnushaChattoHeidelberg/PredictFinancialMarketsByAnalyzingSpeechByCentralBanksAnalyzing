@@ -52,7 +52,7 @@ Project Flow Chart
 # Notes for Repo contributers
 
 # repository overview - as of december 12/12/2022
-1. training and test data are in the dada folder
+1. training and test data are in the data folder
 2. models folder is for storing trained models
 3. the plots folder is for any plots you may want to save as .png or any other format
 4. src/snippets is for independent code files: or files that can run on their own or were created as external .pynb files and then added into the repo
