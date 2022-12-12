@@ -38,7 +38,9 @@ Uploaded datasets in data folder - Renuka Jawaharlal Sahani
 
 Wrote static pynb file in src snippets - Renuka Jawaharlal Sahani
 
-Added pynb script for correlation matrix - Anusha Chattopadhyay
+Plotted the Moving average for the market results data in y_train file - Anusha Chattopadhyay
+
+Added pynb script for moving average plots - Anusha Chattopadhyay
 
 pynb files added to snippets folder - Anusha Chattopadhyay
 
@@ -47,3 +49,5 @@ Plots extracted and saved in plots/data(will tie everything with the main.py fil
 Analysis of the correlation of 13 markets on 1st day, 1st week and 2nd week after the speech was delivered. - Keerthan Ugrani
 
 Choosing the perfectly correlated data and assigning it to the variable - Keerthan Ugrani
+
+data paths updated for the pynb files so as to match the new data folder path - Anusha Chattopadhyay
