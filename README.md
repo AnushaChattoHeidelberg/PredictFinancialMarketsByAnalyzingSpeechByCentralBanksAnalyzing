@@ -29,10 +29,29 @@ requiremnts.txt contains the actively being used libraries:(updated by members t
 Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
+-------------------------------------------------------------------------------------------------------------------------------------------------
+# Status of project
 
+# tasks completed -
+
+1. initial data aquired
+2. Folder structure and repo initalization done (subject to change as main model gets built)
+3. Initial Project Architecture plotted
+4. Static loading of files completed
+5. Max and Min plotted for each market and it's corresponding article plotted - plotted in ipynb file
+6. Simple Moving average for all markets at 2weeks plotted - plots stored in separate plots/simple_moving folder
+7. Corelation Matrix From 1st day to 1st week and 2nd week after the speech is delivered plotted - plotted in ipynb file
+8. files all carried in snippets and put in snippets folder
+
+# tasks pending -
+1. 1st iteration Prediction model with train and test data 
+2. creating a bert transformed test set to test the model after the inital training
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
-log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
+# log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
+-----------------------------------------------------------
+Readme, Logs and repo maintainace main - Anusha Chattopadhyay
+-------------------------------------------------------------
 
 Data Files Aquired- Keertan Ugrani
 
