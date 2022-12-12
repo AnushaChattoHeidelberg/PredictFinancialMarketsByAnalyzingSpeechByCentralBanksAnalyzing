@@ -7,14 +7,20 @@ Project Name: Predict Financial Markets By Analyzing Speech By Central Banks
 # Group Members:
 
 Anusha Chattopadhyay - anusha.chattopadhyay@stud.uni-heidelberg.de
+
 Keertan Ugrani - ugranikeerthan6@gmail.com
+
 Renuka Jawaharlal Sahani - renukasahani16@gmail.com
+
 Shruti Ghargi - shruti.ghargi@gmail.com
 
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
+
 initial test data also from the same challenge
+
 working on creating fresh final test data after bert transformation - pending
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 requiremnts.txt contains the actively being used libraries:(updated by members themselves incase they use somthing not already added)
 
