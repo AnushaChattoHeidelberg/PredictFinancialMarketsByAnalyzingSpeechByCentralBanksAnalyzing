@@ -46,7 +46,7 @@ Wrote static pynb file in src snippets for load the market data size of the colu
 
 Computed the highs and lows for each stock market company for 1st day, 1st week and 2nd week- Shruti Ghargi
 
-Plotted graph for visualization - Shruti Ghargi
+Plotted High and Low graph for visualization (in ipynb file, not stored separately for now) - Shruti Ghargi
 
 Added the pynb script for High and Low values of the stock market - Shruti Ghargi
 
