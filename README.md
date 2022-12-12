@@ -43,3 +43,7 @@ Added pynb script for correlation matrix - Anusha Chattopadhyay
 pynb files added to snippets folder - Anusha Chattopadhyay
 
 Plots extracted and saved in plots/data(will tie everything with the main.py file at a later date) - Anusha Chattopadhyay
+
+Analysis of the correlation of 13 markets on 1st day, 1st week and 2nd week after the speech was delivered. - Keerthan Ugrani
+
+Choosing the perfectly correlated data and assigning it to the variable - Keerthan Ugrani
