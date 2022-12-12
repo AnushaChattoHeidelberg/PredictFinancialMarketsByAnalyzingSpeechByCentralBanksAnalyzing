@@ -53,13 +53,15 @@ Project Flow Chart
 Readme, Logs and repo maintainace main - Anusha Chattopadhyay
 -------------------------------------------------------------
 
-Data Files Aquired- Keertan Ugrani
+Data Files Aquired- Keerthan Ugrani
 
 Git Repo Creation - Anusha Chattopadhyay
 
 Folder Creation data,src and models - Renuka Jawaharlal Sahani
 
 Uploaded datasets in data folder - Renuka Jawaharlal Sahani
+
+Project Archtecture Diagram - Keerthan Ugrani
 
 Wrote static pynb file in src snippets for load the market data size of the column mean median sd for combined as well as one day one week or two week.- Renuka Jawaharlal Sahani
 
