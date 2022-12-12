@@ -15,6 +15,7 @@ Shruti Ghargi
 
 log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 
+Data Files Aquired- Keertan Ugrani
 Git Repo Creation - Anusha Chattopadhyay
 Folder Creation and static pynb file creation - Renuka sahani
 Added pynb script for correlation matrix - Anusha Chattopadhyay
