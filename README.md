@@ -36,7 +36,7 @@ Folder Creation data,src and models - Renuka Jawaharlal Sahani
 
 Uploaded datasets in data folder - Renuka Jawaharlal Sahani
 
-Wrote static pynb file in src snippets - Renuka Jawaharlal Sahani
+Wrote static pynb file in src snippets for load the market data size of the column mean median sd for combined as well as one day one week or two week.- Renuka Jawaharlal Sahani
 
 Plotted the Moving average for the market results data in y_train file - Anusha Chattopadhyay
 
