@@ -25,6 +25,12 @@ working on creating fresh final test data after bert transformation - pending
 requiremnts.txt contains the actively being used libraries:(updated by members themselves incase they use somthing not already added)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
+![project architecture](project_arch.PNG)
+Project Proposed Architecture
+![project flow chart](flow_chrt.PNG)
+Project Flow Chart
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
 log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 
