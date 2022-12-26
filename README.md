@@ -70,7 +70,7 @@ Project Flow Chart
 
 # log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 -----------------------------------------------------------
-Readme, Logs and repo maintainace main - Anusha Chattopadhyay
+Readme, Logs and repo maintenance main - Anusha Chattopadhyay
 -------------------------------------------------------------
 
 Data Files Aquired- Keerthan Ugrani
