@@ -81,7 +81,7 @@ Folder Creation data,src and models - Renuka Jawaharlal Sahani
 
 Uploaded datasets in data folder - Renuka Jawaharlal Sahani
 
-Project Archtecture Diagram - Keerthan Ugrani
+Project Architecture Diagram - Keerthan Ugrani
 
 Wrote static pynb file in src snippets for load the market data size of the column mean median sd for combined as well as one day one week or two week.- Renuka Jawaharlal Sahani
 
