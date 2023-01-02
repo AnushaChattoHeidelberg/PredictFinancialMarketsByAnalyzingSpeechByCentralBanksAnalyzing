@@ -44,7 +44,9 @@ Project Flow Chart
 8. files all carried in snippets and put in snippets folder
 
 # tasks pending -
-1. 1st iteration Prediction model with train and test data 
+1. 1st iteration Prediction model with train and test data - raw articles aquired from 
+https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+market data for available dates to be added
 2. creating a bert transformed test set to test the model after the inital training
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -103,3 +105,5 @@ Analysis of the correlation of 13 markets on 1st day, 1st week and 2nd week afte
 Choosing the perfectly correlated data and assigning it to the variable - Keerthan Ugrani
 
 data paths updated for the pynb files so as to match the new data folder path - Anusha Chattopadhyay
+
+Raw articles for financial market added , market data for available dates pending - Anusha Chattopadhyay
