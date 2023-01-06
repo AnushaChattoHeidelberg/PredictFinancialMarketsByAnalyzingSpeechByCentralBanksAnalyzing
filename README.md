@@ -30,9 +30,9 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project
+# Status of project as of december 12/12/2022 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch.
 
-# tasks completed -
+# tasks completed - update
 
 1. initial data aquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
@@ -48,12 +48,13 @@ Project Flow Chart
 https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 market data for available dates to be added
 2. creating a bert transformed test set to test the model after the inital training
+3. Begin converting snippets into py files to be directly run in main, as of now main,py is empty - process begun as test in branch Anusha
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
 
 # repository overview - as of december 12/12/2022
-1. training and test data are in the dada folder
+1. training and test data are in the data folder
 2. models folder is for storing trained models
 3. the plots folder is for any plots you may want to save as .png or any other format
 4. src/snippets is for independent code files: or files that can run on their own or were created as external .pynb files and then added into the repo
@@ -71,7 +72,7 @@ market data for available dates to be added
 
 # log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 -----------------------------------------------------------
-Readme, Logs and repo maintainace main - Anusha Chattopadhyay
+Readme, Logs and repo maintenance main - Anusha Chattopadhyay
 -------------------------------------------------------------
 
 Data Files Aquired- Keerthan Ugrani
@@ -82,7 +83,7 @@ Folder Creation data,src and models - Renuka Jawaharlal Sahani
 
 Uploaded datasets in data folder - Renuka Jawaharlal Sahani
 
-Project Archtecture Diagram - Keerthan Ugrani
+Project Architecture Diagram - Keerthan Ugrani
 
 Wrote static pynb file in src snippets for load the market data size of the column mean median sd for combined as well as one day one week or two week.- Renuka Jawaharlal Sahani
 
