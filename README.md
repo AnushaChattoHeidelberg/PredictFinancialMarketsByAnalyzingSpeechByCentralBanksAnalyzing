@@ -22,7 +22,7 @@ initial test data also from the same challenge
 working on creating fresh final test data after bert transformation - pending
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-requiremnts.txt contains the actively being used libraries:(updated by members themselves incase they use somthing not already added)
+requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ![project architecture](project_arch.PNG)
@@ -34,7 +34,7 @@ Project Flow Chart
 
 # tasks completed - update
 
-1. initial data aquired
+1. initial data acquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
 3. Initial Project Architecture plotted
 4. Static loading of files completed
@@ -48,20 +48,20 @@ Project Flow Chart
 https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 market data for available dates to be added
 2. creating a bert transformed test set to test the model after the inital training
-3. Begin converting snippets into py files to be directly run in main, as of now main,py is empty - process begun as test in branch Anusha
+3. Begin converting snippets into py files to be directly run in main, as of now main.py is empty - process begun as test in branch Anusha
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
 
 # repository overview - as of december 12/12/2022
-1. training and test data are in the data folder
-2. models folder is for storing trained models
-3. the plots folder is for any plots you may want to save as .png or any other format
+1. Training and test data are in the data folder
+2. Models folder is for storing trained models
+3. The plots folder is for any plots you may want to save as .png or any other format
 4. src/snippets is for independent code files: or files that can run on their own or were created as external .pynb files and then added into the repo
     this code is meant to be eventually integrated into the main.py file
-5. the main.py file is for compilation of the snippets and other external file. ideally this should have minimal algorims in it and mostly imports.
+5. The main.py file is for compilation of the snippets and other external file. ideally this should have minimal algorims in it and mostly imports.
 # guidelines
-1. Please PULL before you push, and before every editing session, to avoid merge conflits while pushing.
+1. Please PULL before you push before every editing session, to avoid merge conflits while pushing.
 2. Please avoid non specific commits such as  "small changes" , "bug fix (with no description of which bug)".
 3. Please create a pull request or contact the members before making a large change on a file you aren't solely working on (non snippet file) or is a dependency for a file someone else is working on
 4. For Vscode users, git lens is recommended
@@ -106,5 +106,7 @@ Analysis of the correlation of 13 markets on 1st day, 1st week and 2nd week afte
 Choosing the perfectly correlated data and assigning it to the variable - Keerthan Ugrani
 
 data paths updated for the pynb files so as to match the new data folder path - Anusha Chattopadhyay
+
+Researched on getting the alternate dataset which is in text format. Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download The dataset contains speeches (in English) held by central bank boards affiliated with the Bank for International Settlements over the period 1997-01-07 to 2020-01-10. This can be our raw article and we are yet to get respective market values for it- Shruti Ghargi
 
 Raw articles for financial market added , market data for available dates pending - Anusha Chattopadhyay
