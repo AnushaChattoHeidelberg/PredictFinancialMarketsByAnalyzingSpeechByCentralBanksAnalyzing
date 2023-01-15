@@ -108,3 +108,5 @@ Choosing the perfectly correlated data and assigning it to the variable - Keerth
 data paths updated for the pynb files so as to match the new data folder path - Anusha Chattopadhyay
 
 Raw articles for financial market added , market data for available dates pending - Anusha Chattopadhyay
+
+VIX-Market data uploaded - Anusha Chattopadhyay
