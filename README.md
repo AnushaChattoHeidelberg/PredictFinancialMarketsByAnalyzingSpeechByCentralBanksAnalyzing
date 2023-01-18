@@ -32,7 +32,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of december 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch.
+# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be compiled
 # tasks completed - update
 
 1. initial data acquired
@@ -52,6 +52,7 @@ Project Flow Chart
 2. creating a bert transformed test set to test the model after the inital training
 3. Begin converting snippets into py files to be directly run in main, as of now main.py is empty - process begun as test in branch Anusha
 4. Clean up script to compile articles remaining
+5. Create Frontend
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
