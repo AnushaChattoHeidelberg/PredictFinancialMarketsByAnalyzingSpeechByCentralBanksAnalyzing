@@ -19,7 +19,9 @@ project training data from the challenge https://challengedata.ens.fr/challenges
 
 initial test data also from the same challenge
 
-working on creating fresh final test data after bert transformation - pending
+creating fresh final test data after bert transformation - aritcles from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+
+First set of financial market data from https://www.cboe.com/tradable_products/vix/vix_historical_data/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
@@ -30,8 +32,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of december 12/12/2022 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch.
-
+# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be compiled
 # tasks completed - update
 
 1. initial data acquired
@@ -42,13 +43,16 @@ Project Flow Chart
 6. Simple Moving average for all markets at 2weeks plotted - plots stored in separate plots/simple_moving folder
 7. Corelation Matrix From 1st day to 1st week and 2nd week after the speech is delivered plotted - plotted in ipynb file
 8. files all carried in snippets and put in snippets folder
-
+9. Market articles aquired from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+10. VIX market data aquired from from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/
+11. Model A created for training initial Data, test with Model A remaining
+12. Raw data to be stored in financial_data_articles_raw
 # tasks pending -
-1. 1st iteration Prediction model with train and test data - raw articles aquired from 
-https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
-market data for available dates to be added
+1. 1st iteration Prediction model with train and test data- Model A created, Model B and C pending
 2. creating a bert transformed test set to test the model after the inital training
 3. Begin converting snippets into py files to be directly run in main, as of now main.py is empty - process begun as test in branch Anusha
+4. Clean up script to compile articles remaining
+5. Create Frontend
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
@@ -122,4 +126,8 @@ Trained the Model via Principal Components - Renuka Jawaharlal Sahani
 Implemente the T-SNE Implementatione - Renuka Jawaharlal Sahani
 
 Implemeted the code to convert final data to final_normal_submission.csv file which will be output result - Renuka Jawaharlal Sahani
+
+VIX market data from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/ - Anusha Chattopadhyay
+
+Raw data stored in financial_data_articles_raw - Anusha Chattopadhyay
 
