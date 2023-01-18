@@ -110,3 +110,5 @@ data paths updated for the pynb files so as to match the new data folder path - 
 Researched on getting the alternate dataset which is in text format. Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download The dataset contains speeches (in English) held by central bank boards affiliated with the Bank for International Settlements over the period 1997-01-07 to 2020-01-10. This can be our raw articles dataset and we are yet to get respective market values for it- Shruti Ghargi
 
 Raw articles for financial market added , market data for available dates pending - Anusha Chattopadhyay
+
+VIX-Market data uploaded - Anusha Chattopadhyay
