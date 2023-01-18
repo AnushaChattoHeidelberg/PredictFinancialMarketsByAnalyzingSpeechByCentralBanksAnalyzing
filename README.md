@@ -112,3 +112,13 @@ Researched on getting the alternate dataset which is in text format. Acquired ce
 Raw articles for financial market added , market data for available dates pending - Anusha Chattopadhyay
 
 VIX-Market data uploaded - Anusha Chattopadhyay
+
+Implemented XG Boost with the Bert Data and Trained the model   - Renuka Jawaharlal Sahani
+
+Did cleaning with PCA Analysis method to reduce the dimensionality of a dataset - Renuka Jawaharlal Sahani
+
+Trained the Model via Principal Components - Renuka Jawaharlal Sahani
+
+Implemente the T-SNE Implementatione - Renuka Jawaharlal Sahani
+
+Implemeted the code to convert final data to final_normal_submission.csv file which will be output result - Renuka Jawaharlal Sahani
