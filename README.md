@@ -19,7 +19,9 @@ project training data from the challenge https://challengedata.ens.fr/challenges
 
 initial test data also from the same challenge
 
-working on creating fresh final test data after bert transformation - pending
+creating fresh final test data after bert transformation - aritcles from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+
+First set of financial market data from https://www.cboe.com/tradable_products/vix/vix_historical_data/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
