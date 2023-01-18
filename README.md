@@ -14,6 +14,7 @@ Renuka Jawaharlal Sahani - renukasahani16@gmail.com
 
 Shruti Ghargi - shruti.ghargi@gmail.com
 
+#scroll to the last section for logs
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
