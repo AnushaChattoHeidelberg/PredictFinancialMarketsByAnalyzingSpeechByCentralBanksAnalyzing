@@ -73,7 +73,8 @@ Project Flow Chart
 5. Refering to point 2, try to not keep the same commit for a large commit, ideally commits should be in small batches so the other contributers can read them easily.
 6. After a push, please also update the logs in the README file as frequently as possible.
 
-# git commands cheat sheet - please don't directly push to main, create a PR and request review or directly contact another member to review before you push. if unsure please just create a PR and wait after requesting review, (patience is a virtue ;-) ) .
+# git commands cheat sheet
+ - please don't directly push to main, create a PR and request review or directly contact another member to review before you push. if unsure please just create a PR and wait after requesting review, (patience is a virtue ;-) ) .
 1. git pull origin - update your local with your active branch
 2. git pull origin main - update your local branch with the latest updates from main
 3. git merge --abort - to cancel your merge incase conflicts occur
