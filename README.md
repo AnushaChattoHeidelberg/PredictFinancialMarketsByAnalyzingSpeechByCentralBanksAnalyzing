@@ -79,7 +79,10 @@ Project Flow Chart
 2. git pull origin main - update your local branch with the latest updates from main
 3. git merge --abort - to cancel your merge incase conflicts occur
 
-
+# Steps to excute the model and test
+1. Install sklearn,xgboost,pandas and numpy
+2. Keep all the dataset files in the same folder whjere model code is present
+3. Run the model
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 # log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
@@ -138,3 +141,16 @@ Implemeted the code to convert final data to final_normal_submission.csv file wh
 VIX market data from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/ - Anusha Chattopadhyay
 
 Raw data stored in financial_data_articles_raw - Anusha Chattopadhyay
+
+Uploaded First implemented code test reult file on challenge data webiste on 25th dec 2022- Renuka Jawaharlal Sahani
+
+Uploaded Second implemented code test reult file on challenge data webiste on 25th Jan 2023 - Renuka Jawaharlal Sahani
+
+Caputred the screenshot and uploaded on github(benchmark results which we achieved) - Renuka Jawaharlal Sahani
+
+Did changes to the old xgboost code implemeted by me.Which is now without randomization.This code crossed the bench mark - Renuka Jawaharlal Sahani
+
+Wrote steps how to execute the model - Renuka Jawaharlal Sahani
+
+Updated requirement.txt - Renuka Jawaharlal Sahani
+
