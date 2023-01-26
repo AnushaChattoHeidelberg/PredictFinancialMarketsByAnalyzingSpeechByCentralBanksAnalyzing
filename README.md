@@ -138,3 +138,20 @@ Implemeted the code to convert final data to final_normal_submission.csv file wh
 VIX market data from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/ - Anusha Chattopadhyay
 
 Raw data stored in financial_data_articles_raw - Anusha Chattopadhyay
+<<<<<<< HEAD
+=======
+
+Uploaded First implemented code test reult file on challenge data webiste on 25th dec 2022- Renuka Jawaharlal Sahani
+
+Uploaded Second implemented code test reult file on challenge data webiste on 25th Jan 2023 - Renuka Jawaharlal Sahani
+
+Caputred the screenshot and uploaded on github(benchmark results which we achieved) - Renuka Jawaharlal Sahani
+
+Did changes to the old xgboost code implemeted by me.Which is now without randomization.This code crossed the bench mark - Renuka Jawaharlal Sahani
+
+Wrote steps how to execute the model - Renuka Jawaharlal Sahani
+
+Updated requirement.txt - Renuka Jawaharlal Sahani
+
+
+>>>>>>> 4fa2da5 (update readme)
