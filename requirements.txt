@@ -3,6 +3,3 @@ numpy
 matplotlib
 seaborn
 SciPy
-xgboost
-sklearn
-IPython
