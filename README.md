@@ -153,5 +153,16 @@ Wrote steps how to execute the model - Renuka Jawaharlal Sahani
 
 Updated requirement.txt - Renuka Jawaharlal Sahani
 
+Uploaded First implemented code test reult file on challenge data webiste on 25th dec 2022- Renuka Jawaharlal Sahani
+
+Uploaded Second implemented code test reult file on challenge data webiste on 25th Jan 2023 - Renuka Jawaharlal Sahani
+
+Caputred the screenshot and uploaded on github(benchmark results which we achieved) - Renuka Jawaharlal Sahani
+
+Did changes to the old xgboost code implemeted by me.Which is now without randomization.This code crossed the bench mark - Renuka Jawaharlal Sahani
+
+Wrote steps how to execute the model - Renuka Jawaharlal Sahani
+
+Updated requirement.txt - Renuka Jawaharlal Sahani
 
 >>>>>>> 4fa2da5 (update readme)
