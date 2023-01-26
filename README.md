@@ -156,3 +156,5 @@ Wrote steps how to execute the model - Renuka Jawaharlal Sahani
 
 Updated requirement.txt - Renuka Jawaharlal Sahani
 
+bis_speeches_tables.zip uploaded in data folder. this data is for preprocessing. the new test set. Driving code uploaded in snippets/ for storage - Anusha Chattopadhyay
+
