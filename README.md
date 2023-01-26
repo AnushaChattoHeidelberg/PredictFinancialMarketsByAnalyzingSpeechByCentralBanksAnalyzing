@@ -138,3 +138,6 @@ Implemeted the code to convert final data to final_normal_submission.csv file wh
 VIX market data from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/ - Anusha Chattopadhyay
 
 Raw data stored in financial_data_articles_raw - Anusha Chattopadhyay
+
+bis_speeches_tables.zip uploaded in data folder. this data is for preprocessing. the new test set. Driving code uploaded in snippets/ for storage - Anusha Chattopadhyay
+
