@@ -14,12 +14,15 @@ Renuka Jawaharlal Sahani - renukasahani16@gmail.com
 
 Shruti Ghargi - shruti.ghargi@gmail.com
 
+#scroll to the last section for logs
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
 initial test data also from the same challenge
 
-working on creating fresh final test data after bert transformation - pending
+creating fresh final test data after bert transformation - aritcles from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+
+First set of financial market data from https://www.cboe.com/tradable_products/vix/vix_historical_data/
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
@@ -30,10 +33,9 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of december 12/12/2022 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch.
+# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be compiled
 
 # tasks completed - update
-
 1. initial data acquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
 3. Initial Project Architecture plotted
@@ -42,6 +44,10 @@ Project Flow Chart
 6. Simple Moving average for all markets at 2weeks plotted - plots stored in separate plots/simple_moving folder
 7. Corelation Matrix From 1st day to 1st week and 2nd week after the speech is delivered plotted - plotted in ipynb file
 8. files all carried in snippets and put in snippets folder
+9. Market articles aquired from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
+10. VIX market data aquired from from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/
+11. Model A created for training initial Data, test with Model A remaining
+12. Raw data to be stored in financial_data_articles_raw
 
 # tasks pending -
 1. 1st iteration Prediction model with train and test data - raw articles aquired from 
@@ -71,6 +77,7 @@ iv.	Representation of the results
 
 5.	Fine-tune the model that has got a better accuracy and check the results
 6.	Creating a Full stack application for the model
+
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
@@ -89,6 +96,13 @@ iv.	Representation of the results
 4. For Vscode users, git lens is recommended
 5. Refering to point 2, try to not keep the same commit for a large commit, ideally commits should be in small batches so the other contributers can read them easily.
 6. After a push, please also update the logs in the README file as frequently as possible.
+
+# git commands cheat sheet
+ - please don't directly push to main, create a PR and request review or directly contact another member to review before you push. if unsure please just create a PR and wait after requesting review, (patience is a virtue ;-) ) .
+1. git pull origin - update your local with your active branch
+2. git pull origin main - update your local branch with the latest updates from main
+3. git merge --abort - to cancel your merge incase conflicts occur
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -144,3 +158,23 @@ Trained the Model via Principal Components - Renuka Jawaharlal Sahani
 Implemente the T-SNE Implementatione - Renuka Jawaharlal Sahani
 
 Implemeted the code to convert final data to final_normal_submission.csv file which will be output result - Renuka Jawaharlal Sahani
+
+VIX market data from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/ - Anusha Chattopadhyay
+
+Raw data stored in financial_data_articles_raw - Anusha Chattopadhyay
+
+Uploaded First implemented code test reult file on challenge data webiste on 25th dec 2022- Renuka Jawaharlal Sahani
+
+Uploaded Second implemented code test reult file on challenge data webiste on 25th Jan 2023 - Renuka Jawaharlal Sahani
+
+Caputred the screenshot and uploaded on github(benchmark results which we achieved) - Renuka Jawaharlal Sahani
+
+Did changes to the old xgboost code implemeted by me.Which is now without randomization.This code crossed the bench mark - Renuka Jawaharlal Sahani
+
+Wrote steps how to execute the model - Renuka Jawaharlal Sahani
+
+Updated requirement.txt - Renuka Jawaharlal Sahani
+
+Added processed csv into data into .zip - Anusha Chattopadhyay
+
+Driver code added to snippets - Anusha Chattopadhyay
