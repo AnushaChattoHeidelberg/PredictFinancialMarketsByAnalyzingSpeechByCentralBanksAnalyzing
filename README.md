@@ -47,8 +47,30 @@ Project Flow Chart
 1. 1st iteration Prediction model with train and test data - raw articles aquired from 
 https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 market data for available dates to be added
-2. creating a bert transformed test set to test the model after the inital training
-3. Begin converting snippets into py files to be directly run in main, as of now main.py is empty - process begun as test in branch Anusha
+2.	Text analytics:
+i.	Building the vocabulary of the text data.
+ii.	First 5 to 10 elements and their counts.
+iii.	Import the embeddings that we want to use in our model and for that, we need to check the intersection of our vocabulary data/ text data with the provided embeddings.
+iv.	This intersection will output a list of vocabulary (OOV) words that we can use to improve our pre-processing.
+v.	Then check the coverage.
+vi.	Check for the top OOV and also the punctuation, while removing or deleting the punctuation marks we need to check whether the punctuation needs to be deleted or considered as a token.
+vii.	Then split off the punctuation which is considered as a token and remove other punctuation from the data.
+viii.	Then check for the embedding and our data coverage.
+ix.	Check for the numbers in the dataset as the bank statements can contain many numerical data as well, and check how the numbers are represented in the embeddings.
+x.	Again, check for the OOV and remove the words since those have obviously been down-sampled when training the embeddings.
+xi.	If there is an increase in the vocab coverage and data coverage is more than 80% and 90% respectively, then we can go ahead with BERT transform.
+
+3.	visual representation:
+once we have the text data and are done with the analysis then we can proceed with which part of our analysis can be represented visually
+
+4.	Model training + getting the result: Model Training: 
+i.	Split entire test data into 80-20 test-train sets
+ii.	Training with XG BOOST and LSTM machine learning algorithms
+iii.	Comparison of ML algo accuracies
+iv.	Representation of the results
+
+5.	Fine-tune the model that has got a better accuracy and check the results
+6.	Creating a Full stack application for the model
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
@@ -75,7 +97,7 @@ market data for available dates to be added
 Readme, Logs and repo maintenance main - Anusha Chattopadhyay
 -------------------------------------------------------------
 
-Data Files Aquired- Keerthan Ugrani
+Data Files Acquired- Keerthan Ugrani
 
 Git Repo Creation - Anusha Chattopadhyay
 
