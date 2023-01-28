@@ -33,7 +33,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be compiled
+# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be aquired and compiled
 
 # tasks completed - update
 1. initial data acquired
@@ -48,8 +48,9 @@ Project Flow Chart
 10. VIX market data aquired from from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/
 11. Model A created for training initial Data, test with Model A remaining
 12. Raw data to be stored in financial_data_articles_raw
+13. Processable Data created and set up, zip stored in Data/ folder
 
-# tasks pending -
+# tasks pending/ongoing -
 1. 1st iteration Prediction model with train and test data - raw articles aquired from 
 https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 market data for available dates to be added
@@ -178,3 +179,5 @@ Updated requirement.txt - Renuka Jawaharlal Sahani
 Added processed csv into data into .zip - Anusha Chattopadhyay
 
 Driver code added to snippets - Anusha Chattopadhyay
+
+Project progress and checklists updated - Keerthan Ugrani, Shruti Ghargi
