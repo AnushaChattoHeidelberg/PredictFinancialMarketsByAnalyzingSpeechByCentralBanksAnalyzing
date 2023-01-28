@@ -7,8 +7,8 @@ directory = "./BIS_speeches_2021_03_03/2_scraped_2021_03_03_txt/"
 
 
 data = {
-    "date": [],
-    "article": [],
+    "DATE": [],
+    "ARTICLE": [],
 }
 
 storeddf = pd.DataFrame(data)
@@ -22,12 +22,12 @@ for x in os.walk(directory):
                     contents = f.readlines()
                 date_1 = filename[:-6]
                 data2 = {
-                    "date": [date_1],
-                    "article": [contents]
+                    "DATE": [date_1],
+                    "ARTICLE": [contents]
                 }
                 storeddf = pd.DataFrame(data2)
-                csvfilename= name+'.csv'
-                storeddf.to_csv(csvfilename, mode='a', index=False, header=False)
+                csvfilename= "./bis_speeches_tables_2/"+ name+'.csv'
+                storeddf.to_csv(csvfilename, mode='a', index=False, header=True)
 
                 # print(os.path.join(directory, filename))
                 continue
