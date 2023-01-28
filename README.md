@@ -33,7 +33,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of 18/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. New test data to be aquired and compiled
+# Status of project as of 23/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. Working on the new test set of data. New test data aquired and compiled
 
 # tasks completed - update
 1. initial data acquired
