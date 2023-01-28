@@ -49,11 +49,10 @@ Project Flow Chart
 11. Model A created for training initial Data, test with Model A remaining
 12. Raw data to be stored in financial_data_articles_raw
 13. Processable Data created and set up, zip stored in Data/ folder
+14. Market data and articles formatted ready for bert transformation, excluding combination
 
 # tasks pending/ongoing -
-1. 1st iteration Prediction model with train and test data - raw articles aquired from 
-https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
-market data for available dates to be added
+1. Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining
 2.	Text analytics:
 i.	Building the vocabulary of the text data.
 ii.	First 5 to 10 elements and their counts.
@@ -181,3 +180,5 @@ Added processed csv into data into .zip - Anusha Chattopadhyay
 Driver code added to snippets - Anusha Chattopadhyay
 
 Project progress and checklists updated - Keerthan Ugrani, Shruti Ghargi
+
+Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - Anusha Chattopadhyay
