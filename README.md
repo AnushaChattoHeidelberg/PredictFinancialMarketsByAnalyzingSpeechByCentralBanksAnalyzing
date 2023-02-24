@@ -182,3 +182,5 @@ Driver code added to snippets - Anusha Chattopadhyay
 Project progress and checklists updated - Keerthan Ugrani, Shruti Ghargi
 
 Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - Anusha Chattopadhyay
+
+1w-2w dates combined code uploaded - Anusha Chattopadhyay

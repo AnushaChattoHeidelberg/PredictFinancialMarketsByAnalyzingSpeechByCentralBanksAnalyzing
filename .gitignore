@@ -1,2 +1,15 @@
 financial_data_articles_raw/speeches/1_raw_txt
 financial_data_articles_raw/speeches/BIS_speeches_2021_03_03
+data/merged_finance_1w_2w.csv
+data/merged_finance_1w_2w_split01.csv
+data/merged_finance_1w_2w_split02.csv
+data/merged_finance_1w_2w_split03.csv
+data/merged_finance_1w_2w_split04.csv
+#add the auto unzipped file paths here
+data/autoupzippeddata/bis_speeches_tables.csv
+data/autoupzippeddata/completed_vix_archive_formatted.csv
+data/autoupzippeddata/merged_finance_1w_2w.csv
+data/autoupzippeddata/merged_finance_1w_2w_split01.csv
+data/autoupzippeddata/merged_finance_1w_2w_split02.csv
+data/autoupzippeddata/merged_finance_1w_2w_split03.csv
+data/autoupzippeddata/merged_finance_1w_2w_split04.csv
