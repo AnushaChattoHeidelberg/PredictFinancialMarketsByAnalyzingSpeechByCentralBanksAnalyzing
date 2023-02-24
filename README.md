@@ -33,7 +33,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of 23/01/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. Working on the new test set of data. New test data aquired and compiled
+# Status of project as of 24/02/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. Working on the new test set of data. New test data aquired and compiled
 
 # tasks completed - update
 1. initial data acquired
@@ -50,9 +50,10 @@ Project Flow Chart
 12. Raw data to be stored in financial_data_articles_raw
 13. Processable Data created and set up, zip stored in Data/ folder
 14. Market data and articles formatted ready for bert transformation, excluding combination
+15. 1w and 2w compilation done and files uploaded to data folder under merged_finance_1w_2w parts 1,2,3,4
 
 # tasks pending/ongoing -
-1. Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining
+1. Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - DONE
 2.	Text analytics:
 i.	Building the vocabulary of the text data.
 ii.	First 5 to 10 elements and their counts.
@@ -96,6 +97,7 @@ iv.	Representation of the results
 4. For Vscode users, git lens is recommended
 5. Refering to point 2, try to not keep the same commit for a large commit, ideally commits should be in small batches so the other contributers can read them easily.
 6. After a push, please also update the logs in the README file as frequently as possible.
+7. upzip.py file created for quick multi unzips, however please ensure to keep gitignore updated
 
 # git commands cheat sheet
  - please don't directly push to main, create a PR and request review or directly contact another member to review before you push. if unsure please just create a PR and wait after requesting review, (patience is a virtue ;-) ) .
@@ -184,3 +186,5 @@ Project progress and checklists updated - Keerthan Ugrani, Shruti Ghargi
 Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - Anusha Chattopadhyay
 
 1w-2w dates combined code uploaded - Anusha Chattopadhyay
+
+upzip.py file created for users to add any zip files they are uploading and do not wish to upzip them manually later - Anusha Chattopadhyay
