@@ -63,13 +63,15 @@ size = len(stored_df.index)
 w1_rows = 0
 w2_rows = 0
 print(stored_df.tail(5))
+finaldf=pd.DataFrame(data)
 i=0
 for index, row in stored_df.iterrows():
         os.system('clear')
         print('processing row',i,'outof',size)
-        #this logic is incorrect but I am too lazy to fix it, due to repeating articles
-        print('number of rows with 1w',w1_rows)
-        print('number of rows with 2w',w2_rows)
+        #this logic is inefficient but I am too lazy to fix it, due to repeating articles
+        #print('number of rows with 1w',w1_rows)
+        #print('number of rows with 2w',w2_rows)
+        #print(finaldf.head(5))
         #check = datetime.now()
         for index2, row2 in stored_df.iterrows():
             if row2['DATE'] == row['date1w']:
@@ -88,6 +90,7 @@ for index, row in stored_df.iterrows():
                 #print("2w matched")
                 w2_rows += 1
                 break
+        finaldf = finaldf.append(row)
         i += 1
 
 print('table completed')
@@ -101,6 +104,6 @@ date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
 date= str(date_time)
 '''
 
-print(stored_df.head(5))
-stored_df.to_csv("merged_finance_1w_2w"+".csv", mode='a', index=False, header=True)
+#print(stored_df.head(5))
+finaldf.to_csv("merged_finance_1w_2w"+".csv", mode='a', index=False, header=True)
 
