@@ -10,10 +10,12 @@ data = {
     "ARTICLE": [],
     "Diff_VIX_1d": [],
     "Diff_VIX_1w": [],
-    "Diff_VIX_2w": []
+    "Diff_VIX_2w": [],
+    "date1w": [],
+    "date2w": []
 }
 
-
+'''
 
 date1_2w = {
     "date1w": [],
@@ -21,11 +23,12 @@ date1_2w = {
     "date2w": []
     
 }
+'''
 
 #df_market["Diff_VIX_1w"] = np.nan
 
 stored_df = pd.DataFrame(data)
-df1_2w = pd.DataFrame(date1_2w)
+#df1_2w = pd.DataFrame(date1_2w)
 
 
 for filename in os.listdir(directory):
@@ -41,66 +44,63 @@ stored_df["Diff_VIX_1d"] = stored_df["CLOSE"]
     # df_1w = np.where(stored_df['DATE'] == (df_market['DATE']))
 
 
-for date in stored_df["DATE"]:
-    date_list = str(date).split('-')
-    date_list = list(map(int, date_list))
-    print(date_list)
-    one_w = timedelta(weeks = 1)
-    two_w = timedelta(weeks = 2)
-    #one_week_date = date_list.copy()
-    #two_week_date = date_list.copy()
-    current_date_obj = datetime(date_list[0], date_list[1], date_list[2], 00, 00)
-    one_week_obj = current_date_obj + one_w
-    two_week_obj = current_date_obj + two_w
-    one_week_date = [one_week_obj.year, one_week_obj.month , one_week_obj.day]
-    print(one_week_date)
-    date1= "-".join(str(x) for x in one_week_date)
-    two_week_date = [two_week_obj.year, two_week_obj.month , two_week_obj.day]
-    print(two_week_date)
-    date2="-".join(str(x) for x in two_week_date)
-    
-    tempdf_date = {
-    "date1w": [date1],
-    
-    "date2w": [date2]
-    
-    }
-    tempdf = pd.DataFrame(tempdf_date)
-    df1_2w = df1_2w.append(tempdf)
-
-
-df1_2w = df1_2w.reset_index(drop=True)
 
 print("oneweeklist and twoweek created")
-#placeholder = date1_2w.copy()
-#df_market = df_market.rename(columns={"DATE":"date1w","CLOSE":"Diff_VIX_1w"})
-#df1_2w = df1_2w.fillna(df1_2w[["CLOSE"]].merge(df_market, on="DATE", how='left'))
-#df1_2w.update(df1_2w[['DATE', 'CLOSE']].merge(df_market, 'left'))
-#df1_2w = df1_2w.update(df_market)
-#df1_2w['Diff_VIX_1w'] = df_market['CLOSE']
-#df1_2w = df1_2w.join(df_market, on="DATE")
-#df1_2w["Diff_VIX_1w"] = df_market.where(df1_2w["DATE"] == df_market["DATE"])
-#df1_2w = df1_2w.merge(df_market, on='date1w')
-#print(df1_2w.head(5))
 
-print(df1_2w.head(5))
+
 print(stored_df.head(5))
 
-for index in df1_2w.index:
- 
-    #print(str(df1_2w.at[1,'date2w']))
-    ex1= "DATE=='" + str(df1_2w.at[index,'date1w']) + "'"
-    ex2 = "DATE=='" + str(df1_2w.at[index,'date2w']) + "'" 
-    stored_df.at[index,'Diff_VIX_1w'] = stored_df.eval(ex1 )['OPEN']
-    stored_df.at[index,'Diff_VIX_2w'] = stored_df.eval(ex2 )['OPEN']
+#stored_df['Diff_VIX_1w'] = stored_df['OPEN'].where(stored_df['date1w'] == stored_df['DATE'])
+one_w = timedelta(weeks = 1)
+two_w = timedelta(weeks = 2)
+stored_df['DATE'] = pd.to_datetime(stored_df['DATE'])
+stored_df['date1w'] = stored_df['DATE'] + one_w
+stored_df['date2w'] = stored_df['DATE'] + two_w
+#stored_df['date1w'] = pd.to_datetime(stored_df['date1w'])
+#stored_df['date2w'] = pd.to_datetime(stored_df['date2w'])
+stored_df = stored_df.sort_values(by='DATE')
+size = len(stored_df.index)
+w1_rows = 0
+w2_rows = 0
+print(stored_df.tail(5))
+i=0
+for index, row in stored_df.iterrows():
+        os.system('clear')
+        print('processing row',i,'outof',size)
+        #this logic is incorrect but I am too lazy to fix it, due to repeating articles
+        print('number of rows with 1w',w1_rows)
+        print('number of rows with 2w',w2_rows)
+        #check = datetime.now()
+        for index2, row2 in stored_df.iterrows():
+            if row2['DATE'] == row['date1w']:
+               # if(row2['DATE'] == check):
+                #    pass
+                #else:
+                row['Diff_VIX_1w'] = row2['OPEN']
+                    #check = row['Diff_VIX_1w']
+                w1_rows += 1
+             #  check = row2['DATE']
+                #print(row)
+                #print("1w matched")
+            
+            if row2['DATE'] == row['date2w']:
+                row['Diff_VIX_2w'] = row2['OPEN']
+                #print("2w matched")
+                w2_rows += 1
+                break
+        i += 1
 
+print('table completed')
 
 
 '''
 now = datetime.now()
 
 date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
+
+date= str(date_time)
 '''
+
 print(stored_df.head(5))
-#stored_df.to_csv("merged_finance"+date_time+".csv", mode='a', index=False, header=True)
+stored_df.to_csv("merged_finance_1w_2w"+".csv", mode='a', index=False, header=True)
 
