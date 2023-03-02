@@ -15,6 +15,18 @@ Renuka Jawaharlal Sahani - renukasahani16@gmail.com
 Shruti Ghargi - shruti.ghargi@gmail.com
 
 #scroll to the last section for logs
+
+# Table of Contents
+1. Project Description
+2. Installation
+3. Data Understanding
+4. Code Description
+5. Conclusion
+6. Resources and references used
+7. Git commands cheat sheet for project
+8. Different tasks taken up while doing the project
+9. Log of contributors to the Project
+
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
