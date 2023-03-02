@@ -27,6 +27,13 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 8. Different tasks taken up while doing the project
 9. Log of contributors to the Project
 
+# 1. Project Description
+ 
+The project's problem statement is taken from Natixis' ongoing ["Bankers and Markets"](https://challengedata.ens.fr/challenges/70) data science challenge. On occasion, central bankers will deliver speeches in which they will analyze the state of the world economy. These comments are widely watched by all financial actors globally, and as a result, they have a big impact on how the financial markets grow and, to a greater extent, how the economy is doing. In actuality, communications from central banks may have an effect on a number of crucial economic factors, such as interest rates, monetary policy, inflation expectations, lending, debt, and overall financial leverage for both the public and private sectors.
+
+Due to the potential impact these speeches may have on vital macro-economic variables and move financial markets, the ability to effectively understand and comprehend "central bank language" has become a crucial topic of study for all sorts of financial analysts and economic actors. 
+
+The goal of this project is to train and evaluate the data provided by the competition as well as to assess the effectiveness of our model by mining the raw data of central bank speeches and market closing data of that day. First, the numerical data were subjected to data preprocessing procedures. Later, to examine if latent features might be used to more accurately predict the market movement at each of the central bank statements, text pre-processing technology was applied to the text data.
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
