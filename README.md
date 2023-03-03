@@ -49,9 +49,12 @@ conda activate movemarket
 pip install -r requirements.txt
 
 1. clone the repo
-2. create the folder for Data
-3. Download the raw data and competition data from this link
-4. Create a folder Embeddings and download the embeddings from this link
+2. Download the raw data and competition data from this link in folder "data"
+[a link](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w)
+3. Create a folder Embeddings and download the embeddings from this link 
+[a link](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300)
+4. For running each model please refer to [here](#4. Code Description)
+
 
 # 3. Data Understanding
 
@@ -164,6 +167,8 @@ creating fresh final test data after bert transformation - aritcles from https:/
 
 First set of financial market data from https://www.cboe.com/tradable_products/vix/vix_historical_data/
 
+Compiled Dataset: https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w
+
 Understanding BERT:
 https://www.kaggle.com/code/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert#Contents
 http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
@@ -181,7 +186,7 @@ NLP similarity Analogy: http://www.d2l.ai/chapter_natural-language-processing-pr
 8. files all carried in snippets and put in snippets folder
 9. Market articles aquired from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 10. VIX market data aquired from from 2009 to 2003 aquired, along with updating data from 2004 to present from https://www.cboe.com/tradable_products/vix/vix_historical_data/
-11. Model A created for training initial Data, test with Model A remaining
+11. Model A created for training initial Data, test with Model A 
 12. Raw data to be stored in financial_data_articles_raw
 13. Processable Data created and set up, zip stored in Data/ folder
 14. Market data and articles formatted ready for bert transformation, excluding combination
