@@ -15,6 +15,82 @@ Renuka Jawaharlal Sahani - renukasahani16@gmail.com
 Shruti Ghargi - shruti.ghargi@gmail.com
 
 #scroll to the last section for logs
+
+# Table of Contents
+1. Project Description
+2. Installation
+3. Data Understanding
+4. Code Description
+5. Conclusion
+6. Resources and references used
+7. Git commands cheat sheet for project
+8. Different tasks taken up while doing the project
+9. Log of contributors to the Project
+
+# 1. Project Description
+ 
+The project's problem statement is taken from Natixis' ongoing ["Bankers and Markets"](https://challengedata.ens.fr/challenges/70) data science challenge. On occasion, central bankers will deliver speeches in which they will analyze the state of the world economy. These comments are widely watched by all financial actors globally, and as a result, they have a big impact on how the financial markets grow and, to a greater extent, how the economy is doing. In actuality, communications from central banks may have an effect on a number of crucial economic factors, such as interest rates, monetary policy, inflation expectations, lending, debt, and overall financial leverage for both the public and private sectors.
+
+Due to the potential impact these speeches may have on vital macro-economic variables and move financial markets, the ability to effectively understand and comprehend "central bank language" has become a crucial topic of study for all sorts of financial analysts and economic actors. 
+
+The goal of this project is to train and evaluate the data provided by the competition as well as to assess the effectiveness of our model by mining the raw data of central bank speeches and market closing data of that day. First, the numerical data were subjected to data preprocessing procedures. Later, to examine if latent features might be used to more accurately predict the market movement at each of the central bank statements, text pre-processing technology was applied to the text data.
+
+# 2. Installation
+
+Required libraries are described in requirements.txt. The code should run with no issues using Python versions 3.6+. Create a virtual environment of your choice. Here uses Anaconda:
+
+conda create -n movemarket python=3.6 jupyter
+conda activate movemarket
+pip install -r requirements.txt
+
+1. clone the repo
+2. create the folder for Data
+3. Download the raw data and competition data from this link
+4. Create a folder Embeddings and download the embeddings from this link
+
+# 3. Data Understanding
+
+Competition Data:
+The data provided in the competition contains the word embeddings The application of this technique transforms a speech into a vector of 768 real numbers that should represent all key information conveyed in the speech. which was embedded using the powerful BERT-Style transformer. They have not provided the speeches themselves as the participants could quickly find out the date and the market moves and this gives the input of the problem. The output is the mean price evolution of a collection of 39 different time series; these time series correspond to 13 different markets mesured at 3 different time scales.
+
+They have computed the difference between closing prices of these 13 markets at 3 different maturities and the price of these markets at the closing time of the date of the speech. They are not interessed in very short time effects (between the beginning of the speech and the closing of the same day) and leaking effects (trading occuring because of information leakage before the beginning of the speech). A few tests have given us an indication that if a speech has an effect on the markets, it seems to intervene before the end of 2 weeks following the date of the speech: we have chosen 1 day lag, 1 week lag and 2 week lag to measure the possible effects on the markets.
+
+The 13 markets are the following :
+
+VIX: Index for the volatility of US stocks.
+V2X: Index for the volatility of european stocks.
+EURUSD: Change Rate EURO - US Dollars.
+EUROUSDV1M: Volatility of at the money 1 month options on the EURUSD.
+SPX: Index of the US Stocks.
+SX5E: Index of Euro Stocks.
+SRVIX: Swap Rate Volatility Index , it is an interest rate volatility index.
+CVIX: Crypto Volatility Index, it is a crypto-currency volatility index.
+MOVE: developed by Merrill Lynch, measures fear within the bond market.
+USGG2YR: US Bonds 2 years.
+USGG10YR: US Bonds 10 years.
+GDBR2YR: German Bonds 2 years.
+GDBR10YR: German Bonds 2 years.
+
+The training data consists in 2000 transformed speeches and their subsequent market moves. More precisely:
+
+x_train.csv is a (2024, 768) array. Each line represents one speech issued at some date by some central banker (FED or ECB); for obvious reasons, they are anonymous. They were transformed into a feature vector of dimension 768 using a Bert-style transformer. These transformer are known to be extremely successfull for conveying the semantics of a natural language text.
+y_train.csv is a (2024, 39) array. Line i represents the market variations consecutive to the i-th speech whose transformed version is in the i-th line of the x_train file. These variations are relative.
+
+The test data is as follows: 
+
+x_test.csv is a (415, 768) array. Each line represents one speech, at dates that are different than for the x_train.
+
+The participant must submit a (415, 39) csv file for the predicted values of the market moves. The metric is simply the L2 metric between the predicted market moves and the real market moves.
+
+Raw Data:
+Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download The dataset contains speeches (in English) held by central bank boards affiliated with the Bank for International Settlements over the period 1997-01-07 to 2020-01-10. This can be our raw articles dataset and the corresponding market data is also extracted of 1day difference, 1 week difference and and 2 week difference.
+
+There are some cases in the data where the data for the 1day is available and 1 week and 2 week data is NaN. Hence we decided to check the efficiency of the model to only 1 day market data.
+
+# 4. Code Description
+
+
+# 5. Conclusion
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
@@ -109,8 +185,6 @@ iv.	Representation of the results
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 # log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
------------------------------------------------------------
-Readme, Logs and repo maintenance main - Anusha Chattopadhyay
 -------------------------------------------------------------
 
 Data Files Acquired- Keerthan Ugrani
