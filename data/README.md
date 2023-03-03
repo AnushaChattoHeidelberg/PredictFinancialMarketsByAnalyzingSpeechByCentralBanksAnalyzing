@@ -1,0 +1,1 @@
+Download the relevant data from the kaggle link [here](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets)
