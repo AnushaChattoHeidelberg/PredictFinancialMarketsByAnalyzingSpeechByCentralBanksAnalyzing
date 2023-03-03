@@ -16,7 +16,7 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 
 #scroll to the last section for logs
 
-# Table of Contents
+## Table of Contents
 1. Project Description
 2. Installation
 3. Data Understanding
@@ -27,7 +27,7 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 8. Git commands cheat sheet for project 
 9. Log of contributors to the Project
 
-# 1. Project Description
+## 1. Project Description
  
 The project's problem statement is taken from Natixis' ongoing ["Bankers and Markets"](https://challengedata.ens.fr/challenges/70) data science challenge. On occasion, central bankers will deliver speeches in which they will analyze the state of the world economy. These comments are widely watched by all financial actors globally, and as a result, they have a big impact on how the financial markets grow and, to a greater extent, how the economy is doing. In actuality, communications from central banks may have an effect on a number of crucial economic factors, such as interest rates, monetary policy, inflation expectations, lending, debt, and overall financial leverage for both the public and private sectors.
 
@@ -40,7 +40,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 
-# 2. Installation
+## 2. Installation
 
 Required libraries are described in requirements.txt. The code should run with no issues using Python versions 3.6+. Create a virtual environment of your choice. Here uses Anaconda:
 
@@ -52,10 +52,10 @@ pip install -r requirements.txt
 2. Download the raw data and competition data from [this link](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w) in folder "data"
 3. Create a folder Embeddings and download the embeddings from  
 [this link](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300)
-4. For running each model please refer to [here](#4. Code Description)
+4. For running each model please refer to [Code Description](#4.-Code-Description)
 
 
-# 3. Data Understanding
+## 3. Data Understanding
 
 Competition Data:
 The data provided in the competition contains the word embeddings The application of this technique transforms a speech into a vector of 768 real numbers that should represent all key information conveyed in the speech. which was embedded using the powerful BERT-Style transformer. They have not provided the speeches themselves as the participants could quickly find out the date and the market moves and this gives the input of the problem. The output is the mean price evolution of a collection of 39 different time series; these time series correspond to 13 different markets mesured at 3 different time scales.
@@ -94,7 +94,7 @@ Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/mag
 
 There are some cases in the data where the data for the 1day is available and 1 week and 2 week data is NaN. Hence we decided to check the efficiency of the model to only 1 day market data.
 
-# 4. Code Description
+## 4. Code Description
 1. cd src/XGBOOST CODE and submission file/exercise-xgboost (1)-Copy1.ipynb
 This is the first method we tried with the data1 (data given in the competition). We did not pass the benchmark with this particular method
 Input:
@@ -151,7 +151,7 @@ Process:
 - comparing the results between scaled word embeddings and non-scaled word embeddings
 - conclusion: training and testing the scaled word embeddings is better than non-scaled and the same trained model holds good for both the data hence checking whether our methodology works in real time raw data too is also completed.
 
-# 5. Conclusion
+## 5. Conclusion
 There has been a significant effect of the speeches given by the Central Banks on the market movements on that particular day, after the week and also after 2 weeks which has been objectively presented in the project. The methodology used is fine tuned XGBoost regressor with PCA analysis gave us the smallest possible RMSE value and also crossed the bench mark of the competition of 18.3909 where as our result was 18.3670. We also checked for the efficiency of our methodology with raw data by pre-processing, converting it to word embeddings and then training and testing with the same methodolgy as used for the competition data and the MSE value for the raw data came up to be 7.97 which is better than other models and methodology.
 
 Future Scope and Betterments:
