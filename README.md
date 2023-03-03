@@ -148,6 +148,7 @@ Process:
 There has been a significant effect of the speeches given by the Central Banks on the market movements on that particular day, after the week and also after 2 weeks which has been objectively presented in the project. The methodology used is fine tuned XGBoost regressor with PCA analysis gave us the smallest possible RMSE value and also crossed the bench mark of the competition of 18.3909 where as our result was 18.3670. We also checked for the efficiency of our methodology with raw data by pre-processing, converting it to word embeddings and then training and testing with the same methodolgy as used for the competition data and the MSE value for the raw data came up to be 7.97 which is better than other models and methodology.
 
 Future Scope and Betterments:
+
 There were many objectives and other different approach we can take in the future improvement in solving the problem, those are to apply the machine learning tools to the market time series data and to use those metrics along with the text article and see the correlation between them as to see how much percentage it can effect in moving the market up and down and also to study the impact of other factors. We can also make the dynamic full-stack web application which can automatically analyse both market data and the central bank speeches to predict the market indicators. Due to time constraint and many other academic factors we were not able to fully implement all these extra objectives.
 # 6. Resources and References
 project training data from the challenge https://challengedata.ens.fr/challenges/70
@@ -310,3 +311,15 @@ Article data and market data formatted separately and added. Combination along w
 1w-2w dates combined code uploaded - Anusha Chattopadhyay
 
 upzip.py file created for users to add any zip files they are uploading and do not wish to upzip them manually later - Anusha Chattopadhyay
+
+Pre-processing of the data - Keerthan Ugrani, Shruti Ghargi
+
+BERT word embeddings - Keerthan Ugrani
+
+Training and Testing the model with XGBoost - Shruti Ghargi
+
+Training and Testing the model with XGBoost along with PCA feature extraction - Keerthan Ugrani
+
+Training and Testing the model with fine tuned XGBoost - Keerthan Ugrani, Shruti Ghargi
+
+Training and Testing the model with fine tuned XGBoost along with PCA feature extraction - Keerthan Ugrani, Shruti Ghargi
