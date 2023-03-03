@@ -35,6 +35,11 @@ Due to the potential impact these speeches may have on vital macro-economic vari
 
 The goal of this project is to train and evaluate the data provided by the competition as well as to assess the effectiveness of our model by mining the raw data of central bank speeches and market closing data of that day. First, the numerical data were subjected to data preprocessing procedures. Later, to examine if latent features might be used to more accurately predict the market movement at each of the central bank statements, text pre-processing technology was applied to the text data.
 
+![project architecture](project_arch.PNG)
+Project Proposed Architecture
+![project flow chart](flow_chrt.PNG)
+Project Flow Chart
+
 # 2. Installation
 
 Required libraries are described in requirements.txt. The code should run with no issues using Python versions 3.6+. Create a virtual environment of your choice. Here uses Anaconda:
@@ -165,16 +170,6 @@ http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
 https://www.analyticsvidhya.com/blog/2021/09/an-explanatory-guide-to-bert-tokenizer/
 
 NLP similarity Analogy: http://www.d2l.ai/chapter_natural-language-processing-pretraining/similarity-analogy.html#applying-pretrained-word-vectors
-
--------------------------------------------------------------------------------------------------------------------------------------------------
-requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
-
---------------------------------------------------------------------------------------------------------------------------------------------------
-![project architecture](project_arch.PNG)
-Project Proposed Architecture
-![project flow chart](flow_chrt.PNG)
-Project Flow Chart
--------------------------------------------------------------------------------------------------------------------------------------------------
 # 7. Different tasks taken up while doing the project
 1. initial data acquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
