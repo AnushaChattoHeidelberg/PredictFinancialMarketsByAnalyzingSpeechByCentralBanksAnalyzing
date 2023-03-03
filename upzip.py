@@ -15,4 +15,4 @@ directoryData = "./data/"
 for filename in os.listdir(directoryData):
     if filename.endswith(".zip"):
         with zipfile.ZipFile("./data/"+filename,"r") as zip_ref:
-            zip_ref.extractall("./data/autoupzippeddata")
+            zip_ref.extractall("./data/autounzippeddata")
