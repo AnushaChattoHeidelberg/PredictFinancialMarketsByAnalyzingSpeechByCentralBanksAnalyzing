@@ -49,10 +49,9 @@ conda activate movemarket
 pip install -r requirements.txt
 
 1. clone the repo
-2. Download the raw data and competition data from this link in folder "data"
-[a link](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w)
-3. Create a folder Embeddings and download the embeddings from this link 
-[a link](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300)
+2. Download the raw data and competition data from [this link](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w) in folder "data"
+3. Create a folder Embeddings and download the embeddings from  
+[this link](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300)
 4. For running each model please refer to [here](#4. Code Description)
 
 
