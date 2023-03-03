@@ -17,15 +17,15 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 #scroll to the last section for logs
 
 ## Table of Contents
-[1. Project Description](#1-project-description)
-[2. Installation](#2-installation)
-[3. Data Understanding](#3-data-understanding)
-[4. Code Description](#4-code-description)
-[5. Conclusion](#5-conclusion)
-[6. Resources and References](#6-resources-and-references)
-[7. Different tasks taken up while doing the project](#7-different-tasks-taken-up-while-doing-the-project)
-[8. Git commands cheat sheet for project ](#8-git-commands-cheat-sheet)
-[9. Log of contributors to the Project](#notes-for-repo-contributers)
+- [1. Project Description](#1-project-description)
+- [2. Installation](#2-installation)
+- [3. Data Understanding](#3-data-understanding)
+- [4. Code Description](#4-code-description)
+- [5. Conclusion](#5-conclusion)
+- [6. Resources and References](#6-resources-and-references)
+- [7. Different tasks taken up while doing the project](#7-different-tasks-taken-up-while-doing-the-project)
+- [8. Git commands cheat sheet for project ](#8-git-commands-cheat-sheet)
+- [9. Log of contributors to the Project](#notes-for-repo-contributers)
 
 ## 1. Project Description
  
