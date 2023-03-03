@@ -88,6 +88,8 @@ Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/mag
 There are some cases in the data where the data for the 1day is available and 1 week and 2 week data is NaN. Hence we decided to check the efficiency of the model to only 1 day market data.
 
 # 4. Code Description
+
+
 # 5. Conclusion
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
