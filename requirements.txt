@@ -6,3 +6,13 @@ SciPy
 xgboost
 sklearn
 IPython
+xgboost
+zipfile
+nltk
+re
+operator
+csv
+transformers
+torch
+tqdm
+gensim.models
