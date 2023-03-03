@@ -88,9 +88,64 @@ Acquired central bank speeches dataset from: https://www.kaggle.com/datasets/mag
 There are some cases in the data where the data for the 1day is available and 1 week and 2 week data is NaN. Hence we decided to check the efficiency of the model to only 1 day market data.
 
 # 4. Code Description
+1. cd src/XGBOOST CODE and submission file/exercise-xgboost (1)-Copy1.ipynb
+This is the first method we tried with the data1 (data given in the competition). We did not pass the benchmark with this particular method
+Input:
+X_train data given in the competition
+Y_train data given in the competition
+X_test data given in the competition
+Sample submission file given in the competition
 
+Output:
+submission file for the competition
+
+Process:
+- using the XGBoost Regressor model to train the word embeddings with the market data
+- using the tsne model to check for the change in the RMSE value
+- using the PCA along with XGBoost Regressor for training and testing
+- comparing the results between scaled word embeddings and non-scaled word embeddings
+- conclusion: training and testing the scaled word embeddings is better than non-scaled
+
+2. cd src/XGBOOST Which crossed benchmark/exercise-xgboost (1)-Copy1.ipynb
+This is the second method we tried with data1 (data given in the competition). We did crosss the benchmark with this particular method.
+Input:
+X_train data given in the competition
+Y_train data given in the competition
+X_test data given in the competition
+Sample submission file given in the competition
+
+Output:
+submission file for the competition
+
+Process:
+- using the modified XGBoost Regressor model to train the word embeddings with the market data
+- using the tsne model to check for the change in the RMSE value
+- using the PCA along with fine tuned XGBoost Regressor for training and testing
+- comparing the results between scaled word embeddings and non-scaled word embeddings
+- conclusion: training and testing the scaled word embeddings is better than non-scaled
+
+3. cd src/Generating_Prediction.ipynb
+Here we take our raw dataset (data2) to check whether our methodology really works when we pre-process the raw data and use the same word embedding methods as used in converting the text data to word embeddings in the competition(data1) and also to check if our fine tuned XGBoost regressor along with PCA works exactly as it worked with data1.
+Input:
+raw data of speech and market values
+
+Output:
+RMSE value and the predicted market value file for the test data
+
+Process:
+- Loading the data
+- Preprocessing of the data
+- building the vocabulary and checking the coverage with existing embeddings
+- loading the BERT model for converting the text data into 768 word embeddings
+- spliting the data for training and testing
+- using the modified XGBoost Regressor model to train the word embeddings with the market data
+- using the tsne model to check for the change in the RMSE value
+- using the PCA along with fine tuned XGBoost Regressor for training and testing
+- comparing the results between scaled word embeddings and non-scaled word embeddings
+- conclusion: training and testing the scaled word embeddings is better than non-scaled and the same trained model holds good for both the data hence checking whether our methodology works in real time raw data too is also completed.
 
 # 5. Conclusion
+
 # Resources
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
