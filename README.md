@@ -22,9 +22,9 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 3. Data Understanding
 4. Code Description
 5. Conclusion
-6. Resources and references used
-7. Git commands cheat sheet for project
-8. Different tasks taken up while doing the project
+6. Resources and References
+7. Different tasks taken up while doing the project
+8. Git commands cheat sheet for project 
 9. Log of contributors to the Project
 
 # 1. Project Description
@@ -145,8 +145,11 @@ Process:
 - conclusion: training and testing the scaled word embeddings is better than non-scaled and the same trained model holds good for both the data hence checking whether our methodology works in real time raw data too is also completed.
 
 # 5. Conclusion
+There has been a significant effect of the speeches given by the Central Banks on the market movements on that particular day, after the week and also after 2 weeks which has been objectively presented in the project. The methodology used is fine tuned XGBoost regressor with PCA analysis gave us the smallest possible RMSE value and also crossed the bench mark of the competition of 18.3909 where as our result was 18.3670. We also checked for the efficiency of our methodology with raw data by pre-processing, converting it to word embeddings and then training and testing with the same methodolgy as used for the competition data and the MSE value for the raw data came up to be 7.97 which is better than other models and methodology.
 
-# Resources
+Future Scope and Betterments:
+There were many objectives and other different approach we can take in the future improvement in solving the problem, those are to apply the machine learning tools to the market time series data and to use those metrics along with the text article and see the correlation between them as to see how much percentage it can effect in moving the market up and down and also to study the impact of other factors. We can also make the dynamic full-stack web application which can automatically analyse both market data and the central bank speeches to predict the market indicators. Due to time constraint and many other academic factors we were not able to fully implement all these extra objectives.
+# 6. Resources and References
 project training data from the challenge https://challengedata.ens.fr/challenges/70
 
 initial test data also from the same challenge
@@ -154,6 +157,13 @@ initial test data also from the same challenge
 creating fresh final test data after bert transformation - aritcles from https://www.kaggle.com/datasets/magnushansson/central-bank-speeches?resource=download 
 
 First set of financial market data from https://www.cboe.com/tradable_products/vix/vix_historical_data/
+
+Understanding BERT:
+https://www.kaggle.com/code/tanulsingh077/deep-learning-for-nlp-zero-to-transformers-bert#Contents
+http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/
+https://www.analyticsvidhya.com/blog/2021/09/an-explanatory-guide-to-bert-tokenizer/
+
+NLP similarity Analogy: http://www.d2l.ai/chapter_natural-language-processing-pretraining/similarity-analogy.html#applying-pretrained-word-vectors
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 requiremnts.txt contains the actively being used libraries:(updated by team whenever new libraries are required)
@@ -164,9 +174,7 @@ Project Proposed Architecture
 ![project flow chart](flow_chrt.PNG)
 Project Flow Chart
 -------------------------------------------------------------------------------------------------------------------------------------------------
-# Status of project as of 24/02/2023 - the main.py file doesn't have any imports as of now and mainly serves as a placeholder, most progress is in the .ipynb files in the src/snippets folder. the main.py folder is mainly kept empty as we have till this stage worked independently. However the process of compilation is being tested in another branch. An inital Approach to the model has been attempted. Working on the new test set of data. New test data aquired and compiled
-
-# tasks completed - update
+# 7. Different tasks taken up while doing the project
 1. initial data acquired
 2. Folder structure and repo initalization done (subject to change as main model gets built)
 3. Initial Project Architecture plotted
@@ -182,10 +190,8 @@ Project Flow Chart
 13. Processable Data created and set up, zip stored in Data/ folder
 14. Market data and articles formatted ready for bert transformation, excluding combination
 15. 1w and 2w compilation done and files uploaded to data folder under merged_finance_1w_2w parts 1,2,3,4
-
-# tasks pending/ongoing -
-1. Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - DONE
-2.	Text analytics:
+16. Article data and market data formatted separately and added. Combination along with 1w and 2w dates remaining - DONE
+17.	Text analytics:
 i.	Building the vocabulary of the text data.
 ii.	First 5 to 10 elements and their counts.
 iii.	Import the embeddings that we want to use in our model and for that, we need to check the intersection of our vocabulary data/ text data with the provided embeddings.
@@ -197,30 +203,17 @@ viii.	Then check for the embedding and our data coverage.
 ix.	Check for the numbers in the dataset as the bank statements can contain many numerical data as well, and check how the numbers are represented in the embeddings.
 x.	Again, check for the OOV and remove the words since those have obviously been down-sampled when training the embeddings.
 xi.	If there is an increase in the vocab coverage and data coverage is more than 80% and 90% respectively, then we can go ahead with BERT transform.
-
-3.	visual representation:
-once we have the text data and are done with the analysis then we can proceed with which part of our analysis can be represented visually
-
-4.	Model training + getting the result: Model Training: 
+18.	visual representation
+19.	Model training + getting the result: Model Training: 
 i.	Split entire test data into 80-20 test-train sets
 ii.	Training with XG BOOST and LSTM machine learning algorithms
 iii.	Comparison of ML algo accuracies
 iv.	Representation of the results
-
-5.	Fine-tune the model that has got a better accuracy and check the results
-6.	Creating a Full stack application for the model
+20.	Fine-tune the model that has got a better accuracy and check the results
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Notes for Repo contributers
-
-# repository overview - as of december 12/12/2022
-1. Training and test data are in the data folder
-2. Models folder is for storing trained models
-3. The plots folder is for any plots you may want to save as .png or any other format
-4. src/snippets is for independent code files: or files that can run on their own or were created as external .pynb files and then added into the repo
-    this code is meant to be eventually integrated into the main.py file
-5. The main.py file is for compilation of the snippets and other external file. ideally this should have minimal algorims in it and mostly imports.
 # guidelines
 1. Please PULL before you push before every editing session, to avoid merge conflits while pushing.
 2. Please avoid non specific commits such as  "small changes" , "bug fix (with no description of which bug)".
@@ -230,7 +223,7 @@ iv.	Representation of the results
 6. After a push, please also update the logs in the README file as frequently as possible.
 7. upzip.py file created for quick multi unzips, however please ensure to keep gitignore updated
 
-# git commands cheat sheet
+# 8. git commands cheat sheet
  - please don't directly push to main, create a PR and request review or directly contact another member to review before you push. if unsure please just create a PR and wait after requesting review, (patience is a virtue ;-) ) .
 1. git pull origin - update your local with your active branch
 2. git pull origin main - update your local branch with the latest updates from main
@@ -239,7 +232,7 @@ iv.	Representation of the results
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-# log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
+# 9. log contributer - for detailed logs, with timings, please refer to the commits page, but we are trying to keep this readme as updated as possible as well
 -------------------------------------------------------------
 
 Data Files Acquired- Keerthan Ugrani
