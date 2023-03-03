@@ -4,7 +4,7 @@
 
 Project Name: Predict Financial Markets By Analyzing Speech By Central Banks
 
-# Group Members:
+## Group Members:
 
 Anusha Chattopadhyay - anusha.chattopadhyay@stud.uni-heidelberg.de
 
@@ -17,15 +17,15 @@ Shruti Ghargi - shruti.ghargi@gmail.com
 #scroll to the last section for logs
 
 ## Table of Contents
-1. Project Description
-2. Installation
-3. Data Understanding
-4. Code Description
-5. Conclusion
-6. Resources and References
-7. Different tasks taken up while doing the project
-8. Git commands cheat sheet for project 
-9. Log of contributors to the Project
+[1. Project Description](#1-project-description)
+[2. Installation](#2-installation)
+[3. Data Understanding](#3-data-understanding)
+[4. Code Description](#4-code-description)
+[5. Conclusion](#5-conclusion)
+[6. Resources and References](#6-resources-and-references)
+[7. Different tasks taken up while doing the project](#7-different-tasks-taken-up-while-doing-the-project)
+[8. Git commands cheat sheet for project ](#8-git-commands-cheat-sheet)
+[9. Log of contributors to the Project](#notes-for-repo-contributers)
 
 ## 1. Project Description
  
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 2. Download the raw data and competition data from [this link](https://www.kaggle.com/datasets/keerthan27/data-for-predicting-financial-markets?select=merged_finance_1w_2w) in folder "data"
 3. Create a folder Embeddings and download the embeddings from  
 [this link](https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300)
-4. For running each model please refer to [Code Description](#4.-Code-Description)
+4. For running each model please refer to [Code Description](#4-code-description)
 
 
 ## 3. Data Understanding
